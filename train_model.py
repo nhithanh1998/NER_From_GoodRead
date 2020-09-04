@@ -6,9 +6,8 @@ import warnings
 from pathlib import Path
 import spacy
 from spacy.util import minibatch, compounding
-# import train_data
 from train_data.ner_train import TRAIN_DATA
-from main import preprocess
+from utils.utils import preprocess
 
 
 @plac.annotations(
